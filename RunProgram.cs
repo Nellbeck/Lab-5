@@ -51,7 +51,7 @@
                             break; // Case 2 that will run and ask for a value for diameter and calculate it.
 
                         case 3:
-                            Console.WriteLine("Skriv tre värden för sidorna på triangeln. Skriv enter efter varje inmatning.");
+                            Console.WriteLine("Skriv ett värde för varje sida på triangeln. Tryck enter efter varje inmatning.");
                             for (int inputCounter = 0; inputCounter < userInput.Length; inputCounter++)
                             {
                                 while (!float.TryParse(Console.ReadLine(), out userInput[inputCounter]))
@@ -66,7 +66,7 @@
                             break; // Case 2 that will run and ask for a value for diameter and calculate it.
 
                         case 4:
-                            Console.WriteLine("Skriv in triangelns bas värde och höjden på triangeln. Tryck enter efter varje inmatning.");
+                            Console.WriteLine("Skriv in triangelns bas värde och höjden på triangeln. Börja med värdet på basen på triangeln. Tryck enter efter varje inmatning.");
                             for (int inputCounter = 0; inputCounter < userInput.Length-1; inputCounter++)
                             {
                                 while (!float.TryParse(Console.ReadLine(), out userInput[inputCounter]))
