@@ -9,7 +9,7 @@ namespace Lab_5
     class Triangel
     {
         float[] _SideLenght = new float[3]; // property that's an array
-        public Triangel(float input1, float input2) // constructor with 2 attributes.
+        public Triangel(float input1, float input2) // constructor with 2 parameters.
         {
             _SideLenght[0] = input1;
             _SideLenght[1] = input2;

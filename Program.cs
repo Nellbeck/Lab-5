@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Fredrik Nellbeck
+ * .NET23_OOP
+ * Systemutveckling .NET med AI-kompetens.
+*/
 namespace Lab_5
 {
     internal class Program
